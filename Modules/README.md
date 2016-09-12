@@ -28,7 +28,7 @@ Once the source code corresponding to the requested module is found in the *modu
 
 **Executing the module**
 
-The bytecode generated from the previous step is executed from top to bottom and a module object is created. The top-level code is executed and any assignments to names results in the attributes of the newly created module object.
+The bytecode from the previous step is executed from top to bottom and a module object is created. The top-level code is executed and any assignments to names results in the attributes of the newly created module object.
 
 
 ### Re-importing/Reloading a module
